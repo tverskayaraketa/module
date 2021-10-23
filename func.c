@@ -15,23 +15,13 @@ int exc1(int z_)
     printf("Введите a:", a);
     scanf("%d", &a);
     printf("Введите c:", c);
-    scanf("%d", &c);
-    
-    
-    
+    scanf("%d", &c); 
     
     L=(sqrt(exp(x)- pow(cos(x*x*pow(a,5)),4))+pow(atan(a - pow(x,5)),4))/(exp(1)*sqrt(fabs(a + x * pow(c,4))));
-    
-    
+        
     printf("Ответ: %f\n", L);
     return L;
 }
-
-
-
-
-
-
 
 
 
@@ -201,5 +191,32 @@ int exc5(int x)
             printf("%d ", i);
 
     }
+    return 0;
+}
+
+int exc7(int x)
+    {
+   
+    int x=0;
+    int I;
+    int J;
+    int* L;
+    L=malloc(I*J*sizeof(int));
+    
+    
+    setlocale(LC_ALL, "Russian");
+    srand(time(NULL));
+    
+    
+    for (int i =0; i< l*k; ++i)
+    {
+        a[i]= -rand() % (21-10) * 3;
+        
+    }
+    
+    
+    
+    printf("%d", a[i] );
+    
     return 0;
 }
