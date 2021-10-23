@@ -11,3 +11,4 @@ int exc5(int x);
 
 int exc6(int x_);
 
+int exc7(int x);
