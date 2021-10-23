@@ -11,11 +11,6 @@ int main()
    
     int x=0;
     setlocale(LC_ALL, "Russian");
-    srand(time(NULL));
-    s=rand()%
-    
-    
-    printf("%d",exc5(x));
     
     return 0;
 }
